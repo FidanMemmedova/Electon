@@ -1,0 +1,12 @@
+.banner .container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.bannerSummary{
+    background-image: "../../../components/img/banner.png";
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,49 @@
+.popularProducts .container {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+}
+
+.popularProductsHeader {
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.popularProductsHeader h2 {
+    color: #1B5A7D;
+}
+
+.popularProductsCategories {
+    display: flex;
+    gap: 13px;
+}
+
+.popularProducts button {
+    color: #1B5A7D;
+    padding: 5px 15px;
+    font-size: 16.38px;
+    font-weight: 500;
+    background: white;
+    border: 1px solid #1B5A7D;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.popularProductsItems {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 27px;
+}
+
+.popularProduct {
+    border-radius: 20px;
+    border: 1px solid #B6B6B6;
+    text-align: center;
+    padding: 15px 0px;
+}

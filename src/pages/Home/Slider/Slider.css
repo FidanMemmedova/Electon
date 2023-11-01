@@ -1,0 +1,52 @@
+.sliderContainer {
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between
+}
+
+/* .sliderText{
+    padding-top: 20px;
+} */
+.sliderText h1 {
+    /* padding-top: 20px; */
+    color: #1B5A7D;
+    width: 175px;
+    font-size: 43px;
+    height: fit-content;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+
+.sliderButtons {
+    display: flex;
+    gap: 21px;
+}
+
+.sliderButtons button {
+    width: 144px;
+    height: 61px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sliderButtons .shop-now{
+    background: #EDA415;
+    color: white;
+    border: 0;
+}
+.sliderButtons .view-more{
+    border: 1px solid #316887;
+    color:#316887;
+    background: white
+}
+.sliderImage{
+    margin-top: 18px;
+    padding-top: 20px;
+}
+.sliderImage img{
+    width: 100%;
+    height: auto;
+}
